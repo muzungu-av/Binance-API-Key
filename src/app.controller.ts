@@ -7,10 +7,8 @@ export class AppController {
 
   @Get('check')
   async getHello(): Promise<any> {
-    const secretKey =
-      'vbfZK3FoNoz4O8strPuyaiO9IQfnb7YncrHI7VKW9D0P03PgsLaBdq7bb5l7C6wO';
-    const apiKey =
-      'JbV51sgQiqIVKmFSnQGOFvr2WmIJwhSHgmeXIo8cBzxbpmEnHUN0U04jw3rOLQDI';
+    const secretKey = '...';
+    const apiKey = '...';
 
     try {
       const response = await this.binanceService
